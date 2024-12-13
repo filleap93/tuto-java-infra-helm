@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: quay.apps.ocp4-8.infocepo.com/pm-tutojava/java-demo:master
+  repository: quay.apps.ocp4-8.infocepo.com/pm-tutojava/java-demo
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "master"
