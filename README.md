@@ -10,7 +10,9 @@ Ce chart permet de créer :
  - Création d'un service sur le déploiement
  - Création d'un ingress en https vers le service
 
+<font color="red">
 Ce Chart peut servir dans le cas d'un test de déploiement comme repo d'infrastructure depuis la console DSO.
+</font>
 
 ## Mode opératoire
 
