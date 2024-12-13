@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: harbor.apps.dso.numerique-interieur.com/form-formation11/java-demo
+  repository: quay.apps.ocp4-8.infocepo.com/pm-tutojava/app-java-forge-dso-demo:master
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "master"
@@ -27,7 +27,7 @@ ingress:
   enabled: true
   secret:
     enabled: true
-  host: formation11.apps.dso-formation.hp.numerique-interieur.com
+  host: tutojava.dso.numerique-interieur.com
   # host: plec-demo.dev.numerique-interieur.com
 
 resources: 
