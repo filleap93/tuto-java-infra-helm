@@ -5,14 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: quay.apps.ocp4-8.infocepo.com/pm-tutojava/java-demo
+  repository: harbor.apps.c6.numerique-interieur.com/mi-tuto/app-java-forge-dso-demo
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "master"
-  # repository: harbor.apps.c6.numerique-interieur.com/mi-tuto/app-java-forge-dso-demo
-  # pullPolicy: Always
-  # # Overrides the image tag whose default is the chart appVersion.
-  # tag: "master"
 
 imagePullSecrets: 
   - name: "registry-pull-secret"
@@ -27,8 +23,7 @@ ingress:
   enabled: true
   secret:
     enabled: true
-  host: tutojava.dso.numerique-interieur.com
-  # host: plec-demo.dev.numerique-interieur.com
+  host: plec-demo.dev.numerique-interieur.com
 
 resources: 
   limits:
