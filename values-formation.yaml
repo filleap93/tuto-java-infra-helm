@@ -1,8 +1,8 @@
 image:
-  repository: harbor.apps.dso.numerique-interieur.com/form-isichc/java-demo
+  repository: harbor.external.cpin.numerique-interieur.com/form2025/java-demo
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "main"
 
 ingress:
-  host: formisichc.apps.dso-formation.hp.numerique-interieur.com
+  host: form2025.apps.dso-formation.hp.numerique-interieur.com
