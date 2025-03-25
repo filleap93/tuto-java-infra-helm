@@ -5,4 +5,4 @@ image:
   tag: "main"
 
 ingress:
-  host: form2025.apps.dso-formation.hp.numerique-interieur.com
+  host: form2025.dso.numerique-interieur.com
