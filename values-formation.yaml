@@ -5,4 +5,4 @@ image:
   tag: "main"
 
 ingress:
-  host: form2025.external-app.cpin.numerique-interieur.com
+  host: formisichc.external-app.cpin.numerique-interieur.com
