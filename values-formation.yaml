@@ -1,5 +1,5 @@
 image:
-  repository: harbor.external.cpin.numerique-interieur.com/form2025/java-demo
+  repository: harbor.external.cpin.numerique-interieur.com/formisichc/java-demo
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "main"
